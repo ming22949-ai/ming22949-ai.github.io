@@ -38,7 +38,7 @@ async function init() {
   // 2. JSONファイル読込処理（指定された外部ファイルを読み込みます）
   let loadedData = null;
   const pathsToTry = [
-    './INJSON/N2日本語学習.JSON'
+    './N2日本語学習.JSON'
   ];
 
   for (const path of pathsToTry) {
