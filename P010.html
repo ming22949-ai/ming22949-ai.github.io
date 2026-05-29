@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>P010.html</title>
+
+<style>
+
+body{
+    margin:0;
+    background:#f5f5f5;
+    font-family:"Yu Gothic","Hiragino Sans",sans-serif;
+    display:flex;
+    justify-content:center;
+}
+
+.app{
+    width:390px;
+    min-height:100vh;
+    background:white;
+    padding:20px;
+    box-sizing:border-box;
+}
+
+.file-name{
+    font-size:22px;
+    margin-bottom:20px;
+    color:#555;
+}
+
+.main-box{
+    border:2px solid #999;
+    height:720px;
+    position:relative;
+    padding:20px;
+    box-sizing:border-box;
+}
+
+.title{
+    font-size:24px;
+    color:#555;
+}
+
+.back-btn{
+	position: absolute;
+	top: 40px;
+	right: 11px;
+	width: 149px;
+	height: 76px;
+	border: 2px solid #999;
+	background: white;
+	font-size: 24px;
+	color: #555;
+}
+
+.number{
+    position:absolute;
+    font-size:38px;
+    font-weight:bold;
+    color:black;
+}
+
+.star{
+    position:absolute;
+    font-size:52px;
+    color:#888;
+}
+
+/* 数字配置 */
+
+.n7{ top:140px; left:190px; }
+.s7{ top:125px; left:250px; }
+
+.n6{ top:240px; left:70px; }
+
+.n5{ top:330px; left:250px; }
+
+.n4{ top:450px; left:190px; }
+
+.n3{ top:590px; left:70px; }
+
+.n2{ top:720px; left:250px; }
+
+.n1{ top:830px; left:190px; }
+.s1{ top:815px; left:250px; }
+
+/* 下部ボタン */
+
+.bottom-area{
+    position:absolute;
+    bottom:30px;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+.nav-btn{
+    width:120px;
+    height:50px;
+    border:2px solid #999;
+    background:white;
+    font-size:24px;
+    color:#555;
+}
+
+.page{
+    font-size:28px;
+    color:#333;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="app">
+  <div class="main-box">
+    <table width="90%" height="109" border="0" align="center">
+        <tbody>
+          <tr>
+            <td width="50%" height="64" valign="middle" class="n1">試験</td>
+            <td width="50%" align="right"><button class="nav-btn"> 戻る </button></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td align="right">&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+      <table width="90%" height="460" border="0" align="center">
+        <tbody>
+            <tr>
+              <td width="50%" align="right"><button class="">7</button></td>
+              <td width="50%">&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td align="center" valign="middle"><button class="">6</button></td>
+            </tr>
+            <tr>
+              <td align="center"><button class="">5</button></td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td align="center"><button class="">4</button> </td>
+            </tr>
+            <tr>
+              <td align="center"><button class="">3</button></td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td align="center"><button class="">2</button>  </td>
+            </tr>
+            <tr>
+              <td height="84" align="right"><button class="">1</button></td>
+              <td></td>
+            </tr>
+        </tbody>
+      </table>
+  
+
+        <div class="bottom-area">
+
+            <button class="nav-btn">
+                前へ
+          </button>
+
+            <div class="page">
+                1 / 2
+            </div>
+
+            <button class="nav-btn">
+                次へ
+            </button>
+
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
