@@ -38,7 +38,7 @@ async function init() {
   // 2. JSONファイル読込処理（指定された外部ファイルを読み込みます）
   let loadedData = null;
   const pathsToTry = [
-    './N2日本語学習.JSON'
+    'https://github.com/ming22949-ai/ming22949-ai.github.io/blob/main/N2%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%AD%A6%E7%BF%92.JSON'
   ];
 
   for (const path of pathsToTry) {
